@@ -7,6 +7,7 @@ import time
 print('Starting calculator...')
 time.sleep(1)
 
+#calculator function
 def calculator():
     first_number = int(input('please enter the first number: ').strip())
     first_choice = input('would you like to enter a second number? (y/n) ').strip()
