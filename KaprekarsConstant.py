@@ -30,11 +30,11 @@ def KaprekarsConstant(num):
         num = descending_num - ascending_num
         
         if(num<10):
-			num = num * 1000
-		elif(num < 100):
-			num = num * 100
-		elif(num<1000):
-			num = num * 10
+		num = num * 1000
+	elif(num < 100):
+		num = num * 100
+	elif(num<1000):
+		num = num * 10
 
     return routine_count    
     
