@@ -34,12 +34,12 @@ def KaprekarsConstant(num):
 # would be 2111. Once we subtract 1112 from 2111 num is equal to 999 which is not a 4-digit
 #number so we multiply it by 10 (in this case) to add another digit(zero).
         if(num<10):
-		num = num * 1000
-	elif(num < 100):
-		num = num * 100
-	elif(num<1000):
-		num = num * 10
-
+            num = num * 1000
+        elif(num < 100):
+            num = num * 100
+        elif(num<1000):
+            num = num * 10
+            
     return routine_count    
     
-print KaprekarsConstant(raw_input())  
+print(KaprekarsConstant(input()))  
