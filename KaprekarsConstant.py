@@ -42,4 +42,4 @@ def KaprekarsConstant(num):
             
     return routine_count    
     
-print(KaprekarsConstant(input()))  
+print(KaprekarsConstant(input("Enter 4-digit number: ")))  
