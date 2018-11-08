@@ -1,7 +1,5 @@
 #Find the unique numbers in a given list
 
-a = [1,3,4,5,3,5,8,7,6,7,6,9]
-
 def uniqueNumbers(list):
     unique_numbers = []
     back_list = []
@@ -17,5 +15,3 @@ def uniqueNumbers(list):
             unique_numbers.append(list[i])
 
     print(unique_numbers)
-
-uniqueNumbers(a)

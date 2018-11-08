@@ -1,5 +1,6 @@
 #FIBONACCI SEQUENCE
 
+#return nth element in the fibonacci sequence
 def fibonacci_seq(n):
     if n==0:    
         return 0
@@ -8,5 +9,4 @@ def fibonacci_seq(n):
     else:
         return fibonacci_seq(n-1) + fibonacci_seq(n-2)
 
-print(fibonacci_seq(5))
 
