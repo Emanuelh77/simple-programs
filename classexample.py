@@ -18,8 +18,10 @@ class Dog:
 
 Bruce = Dog("labrador",5,"black")
 
+print(Bruce.color)
+print(Bruce.age)
 print(Bruce.breed)
-#Bruce.play()
-#print(Bruce.status)
+Bruce.play()
+print(Bruce.status)
 Bruce.rest()
 print(Bruce.status)

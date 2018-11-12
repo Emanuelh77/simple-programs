@@ -14,4 +14,12 @@ def uniqueNumbers(list):
             back_list.append(list[i])
             unique_numbers.append(list[i])
 
-    print(unique_numbers)
+    return unique_numbers
+
+sample_list = [1,2,3,4,5,6,7,7]
+sample_list_two = [44,55,66,77,44,55,66]
+sample_list_three = [2,3,4,5,6,7,8,1,2,3,4,5,6,7,8,9]
+
+print("The unique numbers in sample_list are " + ','.join(map(str, uniqueNumbers(sample_list))))
+print("The unique numbers in sample_list_two are " + ','.join(map(str, uniqueNumbers(sample_list_two))))
+print("The unique numbers in sample_list_three are " + ','.join(map(str, uniqueNumbers(sample_list_three))))
